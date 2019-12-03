@@ -1,35 +1,48 @@
 # Election_Analysis1
 Repository for holding Module 3 classwork code
 
-The PyPoll.py file contains code for Module 3 coursework. Module 3 introduced us to Python's basic functions and reading and writing to a file. 
+## Project Overview
 
-PsudoCode for PyPoll.py
+A Colorado Board of Elections employee, Tom, has given me the following tasks to complete the election audit for a local congressional election - so that the election results can be certified. 
 
-Add dependencies by importing CSV and OS
-Assign a variable to load the election results csv file into memory. 
-Assign a variable and the path to write the analysis back to the text file called election_analysis.txt.
+1) Calculate the total number of votes cast. 
+2) Get a complete list of candidates who received votes. 
+3) Calculate the total number of votes and percentage received for each candidate
+4) Determine the winner of the election based on popular vote.
+5) Provide this election_analysis in a printable report and as a text data file. 
 
-Initialize a total vote counter so percentages by candidate can be calculated. 
-Initialize 2 candidate list variables for 1)any candidate receiving votes (candidate_options) and 2) vote totals (vote_totals)
-Initialize variables for winning candidate (string variable)
-Initialize variable for winning candidate vote count
-Initialize variable for winning candidate percentage of the vote
+## Resources Used for Election Analysis
+- Data Source: election_results.csv (provided by Colorado Board of Elections Employee - Tom. 
+- Software: Python 3.6.1, Visual Studio Code, 1.38.1.
+- The PyPoll.py file contains the source code for Module 3 coursework.
 
-Open the election results file and read the file
-Read headers first and write the headers to file
-Read file to determine candidates name and add to candidate options if not already in the file -- and then increment their vote count. 
-continue until all votes counted. 
+## Summary of Analysis
+The analysis of the election show that: 
+1) Total Votes cast in the election were 369,711
+2) The Candidates receiving 1 or more votes were:
+    - A) Charles Casper Stockham
+    - B) Diana Degette
+    - C) Raymon Anthony Doane
+3) The candidates received the following vote counts:
+    - A) Charles Casper Stockham received 85,213 for 23.0% of the vote
+    - B) Diana DeGette received 272,892 votes for 73.8% of the vote
+    - C) Raymon Anthony Doane received 11,606 votes for 3.1% of the vote. 
+4) The winner of the election was: 
+    - Diana DeGette receiving 272,892 votes for 73.8% of the vote. A decisive victory by any standards!
+5) The final results are contained in the file election_analysis.txt located in the Resources Folder of this repository. 
 
-Save results to the text file election_analysis.txt and write:
-  Election Results
-  Total Votes (total votes)
-  
-Compute final vote count per candiate and percentage based on total votes cast. 
-write to file
-Compare each candidate's vote count to previous candidate and save if higher
-Print final results as winning results. 
+## Challenge 3 Overview
+Challenge 3 asked us to modify the code to calculate: 
+1) Total Votes By County 
+2) Total Percentage By County
 
-Save the results to the election_analysis.txt file. 
+## Challenge Summary 
+This additional analysis showed that:
+1) Jefferson County received 38,855 total votes equal to 10.5% of the total votes cast
+2) Denver County received 306,055 total votes equal to 82.8% of the total votes cast. 
+3) Arapahoe Count received 24,801 total votes equal to 6.7% of the toal votes cast. 
+
+
 
 
   
