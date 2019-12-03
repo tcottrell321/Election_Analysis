@@ -14,7 +14,7 @@ A Colorado Board of Elections employee, Tom, has given me the following tasks to
 ## Resources Used for Election Analysis
 - Data Source: election_results.csv (provided by Colorado Board of Elections Employee - Tom. 
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1.
-- The PyPoll.py file contains the source code for Module 3 coursework.
+- The PyPoll.py file contains the source code for Module 3 coursework and resulting election analysis. 
 
 ## Summary of Analysis
 The analysis of the election show that: 
@@ -29,7 +29,7 @@ The analysis of the election show that:
     - C) Raymon Anthony Doane received 11,606 votes for 3.1% of the vote. 
 4) The winner of the election was: 
     - Diana DeGette receiving 272,892 votes for 73.8% of the vote. A decisive victory by any standards!
-5) The final results are contained in the file election_analysis.txt located in the Resources Folder of this repository. 
+5) The final results are contained in the file election_analysis.txt located in the Analysis Folder of this repository. 
 
 ## Challenge 3 Overview
 Challenge 3 asked us to modify the code to calculate: 
