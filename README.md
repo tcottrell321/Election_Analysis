@@ -42,7 +42,7 @@ This additional analysis showed that:
 2) Denver County received 306,055 total votes equal to 82.8% of the total votes cast. 
 3) Arapahoe Count received 24,801 total votes equal to 6.7% of the toal votes cast. 
 
-
+end
 
 
   
