@@ -35,12 +35,14 @@ The analysis of the election show that:
 Challenge 3 asked us to modify the code to calculate: 
 1) Total Votes By County 
 2) Total Percentage By County
+3) The County with the highest turnout
 
 ## Challenge Summary 
 This additional analysis showed that:
 1) Jefferson County received 38,855 total votes equal to 10.5% of the total votes cast
 2) Denver County received 306,055 total votes equal to 82.8% of the total votes cast. 
-3) Arapahoe Count received 24,801 total votes equal to 6.7% of the toal votes cast. 
+3) Arapahoe Count received 24,801 total votes equal to 6.7% of the toal votes cast.
+4) Denver was the highest turnout county. 
 
 end
 
