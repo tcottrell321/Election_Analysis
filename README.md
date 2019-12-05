@@ -1,4 +1,4 @@
-# Election_Analysis1
+# Election_Analysis
 Repository for holding Module 3 classwork code
 
 ## Project Overview
@@ -37,12 +37,20 @@ Challenge 3 asked us to modify the code to calculate:
 2) Total Percentage By County
 3) The County with the highest turnout
 
+## Changes to PyPoll.py File - Summary 
+To meet this challenge, additional variables and lists were created for the Counties.
+All variables and list names were reviewed and modified to ensure they were sufficiently unique between Counties and Candidates. 
+An additional "For" loop was created to count the Counties votes. 
+This loop was inserted after the loop for counting total votes and before the loop counting candidate votes. 
+To save time, the "candidate code" was copied and modified to create the new county code. 
+Additional code was also added to print results to the screen and to the text file, Election_Results.txt. 
+
 ## Challenge Summary 
 This additional analysis showed that:
 1) Jefferson County received 38,855 total votes equal to 10.5% of the total votes cast
 2) Denver County received 306,055 total votes equal to 82.8% of the total votes cast. 
 3) Arapahoe Count received 24,801 total votes equal to 6.7% of the toal votes cast.
-4) Denver was the highest turnout county. 
+4) Denver had the highest turnout.  
 
 end
 
