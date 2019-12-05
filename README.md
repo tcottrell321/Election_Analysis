@@ -37,7 +37,7 @@ Challenge 3 asked us to modify the code to calculate:
 2) Total Percentage By County
 3) The County with the highest turnout
 
-## Changes to PyPoll.py File - Summary 
+## Creation of PyPoll_Challenge3.py File - Summary 
 To meet this challenge, additional variables and lists were created for the Counties.
 All variables and list names were reviewed and modified to ensure they were sufficiently unique between Counties and Candidates. 
 An additional "For" loop was created to count the Counties votes. 
